@@ -42,7 +42,7 @@ class TransferLearning(object):
         else:
             self.dataset_dir = 'datasets/'
         self.train_dir = self.dataset_dir + '/train' # Setting Dataset Directory if dataset needs to be loaded from directory
-        self.validation_dir = self.dataset_dir + '/validation'
+        self.validation_dir = self.dataset_dir + '/val'
         self.test_dir = self.dataset_dir +  '/test'
         if(inf_args.OUTPUT_DIR):
             self.base_log_dir = inf_args.OUTPUT_DIR

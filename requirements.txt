@@ -1,4 +1,5 @@
 scikit-learn
+intel-tensorflow-avx512
 tensorflow_hub
 tensorflow_datasets
 matplotlib

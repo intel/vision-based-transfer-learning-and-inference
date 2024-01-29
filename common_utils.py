@@ -50,7 +50,7 @@ class TransferLearning(object):
         else:
             self.base_log_dir = "logs/fit" # Setting log Directoy
         os. makedirs(self.base_log_dir, exist_ok=True)
-        self.feature_extractor_model = "https://tfhub.dev/google/imagenet/resnet_v1_50/feature_vector/5" #Using Resnetv1.5 pretrained model
+        self.feature_extractor_model = "https://tfhub.dev/google/imagenet/resnet_v1_50/feature_vector/1" #Using Resnetv1.5 pretrained model
         self.total_classes = 0
         self.actual_labels = []
         self.num_epochs = inf_args.NUM_EPOCHS

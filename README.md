@@ -97,7 +97,7 @@ pip install -r requirements.txt
   
   ##### Remote Sensing Dataset
   
-        The dataset used for remote sensing domain is resisc45. More details are at the location : https://www.tensorflow.org/datasets/catalog/resisc45 
+        The dataset used for remote sensing domain is resisc45 from tensorflow datasets. More details are at the location : https://www.tensorflow.org/datasets/catalog/resisc45 
         Download the rar file from https://onedrive.live.com/?authkey=%21AHHNaHIlzp%5FIXjs&cid=5C5E061130630A68&id=5C5E061130630A68%21107&parId=5C5E061130630A68%21112&action=locate 
         Unzip the folder
         Run python script resisc_dataset.py with input directory and output directory where you want the split folders to be present ( train and val)
